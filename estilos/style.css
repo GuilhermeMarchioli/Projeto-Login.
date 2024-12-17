@@ -52,11 +52,16 @@ div#forms {
     padding: 10px;
 }
 
+div#forms > img {
+    background-color: black;
+}
+
 div#forms > h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 div#forms > p {
     font-size: 0.8em;
-    ''
+    margin-bottom: 10px;
 }
