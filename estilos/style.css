@@ -84,6 +84,7 @@ form input[type=email] {
     border: none;
     padding: 8px;
     border-radius: 5px;
+    width: calc(100% - 33px);
 }
 
 form input[type=email]:focus {
@@ -95,6 +96,7 @@ form input[type=password] {
     border: none;
     padding: 8px;
     border-radius: 5px;
+    width: calc(100% - 33px);
 }
 
 form input[type=password]:focus {
@@ -139,4 +141,5 @@ form a:hover {
  form img {
     position: relative;
     top: 5px;
+    left: 3px;
 }
