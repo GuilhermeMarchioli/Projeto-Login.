@@ -13,17 +13,16 @@
     section#login {
         width: 80%;
         height: 280px;
+        flex-flow: row nowrap;
     }
 
     div#img {
-        float: left;
         width: 30%;
         height: 100%;
 
     }
 
     div#forms {
-        float: right;
         width: 70%;
     }
 }
@@ -36,16 +35,16 @@
     section#login {
         width: 925px;
         height: 335px;
+        flex-flow: row-reverse nowrap;
     }
 
     div#img {
-        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#forms {
-        float: left;
+
         width: 50%;
     }
 
